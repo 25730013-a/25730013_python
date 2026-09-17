@@ -56,3 +56,27 @@ def add(*numbers):
 
 print(add(10,20,30,40,50))
 ```
+
+-람다함수
+```
+def add(a):
+    return a+10
+
+a=20
+print(add(a))
+
+add2=lambda x: x+10
+print(add2(10))
+```
+
+-전역 변수
+```
+a=10
+
+def add():
+    global a
+    a=20
+
+add()
+print(a)
+```
