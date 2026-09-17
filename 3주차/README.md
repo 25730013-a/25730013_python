@@ -1,6 +1,6 @@
 ## 2026-09-17
 
--get_area
+- get_area
 ```
 def get_area(radius):
     area=3.14*radius**2
@@ -10,7 +10,7 @@ result=get_area(3)
 print("반지름이 3인 원의 면적=",result)
 ```
 
--중첩 별찍기
+- 중첩 별찍기
 ```
 for y in range(5):
     for x in range(10):
@@ -24,7 +24,7 @@ for i in range(5,0,-1):
     print()
 ```
 
--행, 열, 문자
+- 행, 열, 문자
 ```
 def printPattern(rows=5, clse=5, char="*"):
                  for _ in range(rows):
@@ -35,7 +35,7 @@ def printPattern(rows=5, clse=5, char="*"):
 printPattern(3,10,"%")
 ```
 
--가변인수 합계
+- 가변인수 합계
 ```
 def add(*numbers):
     sum=0
@@ -57,7 +57,8 @@ def add(*numbers):
 print(add(10,20,30,40,50))
 ```
 
--람다함수
+***
+- 람다함수
 ```
 def add(a):
     return a+10
@@ -69,7 +70,7 @@ add2=lambda x: x+10
 print(add2(10))
 ```
 
--전역 변수
+- 전역 변수
 ```
 a=10
 
