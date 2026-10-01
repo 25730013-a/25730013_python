@@ -23,3 +23,14 @@ n=fruits.index("banana")
 if "banana" in fruits:
     print(fruits.index("banana"))
 ```
+
+- 리스트 오름차순, 내림차순
+```
+a=[5, 2, 1, 4, 6]
+
+a.sort(reverse=False)  #오름차순
+print(a)
+
+a.sort(reverse=True)   #내림차순
+print(a)
+```
