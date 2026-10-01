@@ -77,3 +77,7 @@ for i in lst:
     
 print(int(total/N))
 ```
+---
+```
+a=list(map(int,input().split()))
+```
