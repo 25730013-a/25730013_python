@@ -18,7 +18,7 @@ for i in range(len(score)):
         print(score[i])
 ```
 
-- 1
+- 리스트1 자가진단 5
 ```
 N=int(input())
 lst=[]
@@ -30,7 +30,7 @@ for i in range(N):
 print(lst)
 ```
 
-- 2
+- 리스트1 연습문제 6
 ```
 lst=[]
 
