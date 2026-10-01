@@ -17,3 +17,14 @@ for i in range(len(score)):
     if i % 2==1:
         print(score[i])
 ```
+
+```
+N=int(input())
+lst=[]
+
+for i in range(N):
+    temp=int(input())
+    ist.append(temp)
+
+print(lst)
+```
