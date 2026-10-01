@@ -58,3 +58,22 @@ for i in range(len(lst)):
     if i % 2 == 1:
         print(lst[i])
 ```
+
+- 리스트1 형성평가 4
+```
+N = int(input())
+lst = []
+
+for i in range(N):
+    temp=int(input())
+    lst.append(temp)
+
+print(int(sum(lst)/N))
+
+
+total=0
+for i in lst:
+    total += i
+    
+print(int(total/N))
+```
