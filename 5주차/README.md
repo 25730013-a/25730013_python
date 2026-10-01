@@ -44,6 +44,7 @@ for i in lst:
     print(i)
 ```
 
+- 리스트1 자가진단 7
 ```
 lst = []
 
