@@ -77,7 +77,8 @@ for i in lst:
     
 print(int(total/N))
 ```
----
+- 리스트2 연습문제 4
 ```
 a=list(map(int,input().split()))
+print(max(a))
 ```
