@@ -16,4 +16,6 @@ score=[80,90,70,100,60]
 for i in range(len(score)):
     if i % 2==1:
         print(score[i])
+#>>>90
+#   100
 ```
