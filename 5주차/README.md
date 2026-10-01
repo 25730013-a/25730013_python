@@ -10,14 +10,14 @@ print(a)
 a.sort(reverse=True)   #내림차순
 print(a)
 ```
-
+---
 ```
 score=[80,90,70,100,60]
 for i in range(len(score)):
     if i % 2==1:
         print(score[i])
 ```
-
+---
 - 리스트1 자가진단 5
 ```
 N=int(input())
