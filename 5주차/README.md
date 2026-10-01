@@ -18,6 +18,7 @@ for i in range(len(score)):
         print(score[i])
 ```
 
+- 1
 ```
 N=int(input())
 lst=[]
@@ -29,6 +30,7 @@ for i in range(N):
 print(lst)
 ```
 
+- 2
 ```
 lst=[]
 
