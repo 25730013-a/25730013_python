@@ -170,4 +170,9 @@ del a[:3]    #del
 a.remove(50) #remove("값")
 a.pop()      #pop(index)
 print(a)
+
+#del
+a=10
+del a
+print(a)
 ```
