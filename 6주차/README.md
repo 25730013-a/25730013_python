@@ -205,7 +205,7 @@ print(numbers)
 numbers=[x for x in range(1, 100) if x%2 == 0 and x%3 == 0]
 ```
 ```
-#5주차_52
+#5주차_52장
 
 a=[1,2,3,4]
 for i in range(len(a))
