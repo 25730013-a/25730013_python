@@ -23,5 +23,7 @@ a,b=input().split()
 #문자->숫자 ord()
 
 for i in range(ord(a), ord(b)+1):
-    print(chr(i), end=" ")
+    print(chr(i), end=" 
+---
+
 ```
