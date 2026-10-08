@@ -132,3 +132,32 @@ print(string[1::2]) #짝만 출력
 
 #문자열 부분 수정 안됨
 ```
+---
+### 리스트 변경
+```
+#리스트가 비워짐
+>>> lst = [1, 2, 3, 4, 5, 6, 7, 8]
+>>> lst[:] = [ ]
+>>> lst
+[]
+
+#새로운 리스트를 만듬
+>>> lst = [1, 2, 3, 4, 5, 6, 7, 8]
+>>> lst = [ ]
+>>> lst
+[]
+
+a=[10,30,20,60,50,40]
+a.sort()
+del a[-1]    #del
+a.remove(50) #remove("값") /요소 값을 알고 있을 때 유리
+a.pop()      #pop(index)
+print(a)
+
+a=[10,30,20,60,50,40]
+a.sort(reverse=True)
+del a[-1]    #del
+a.remove(50) #remove("값")
+a.pop()      #pop(index)
+print(a)
+```
