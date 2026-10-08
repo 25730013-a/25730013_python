@@ -65,5 +65,68 @@ False
 ---
 - 리스트 복사_얕은 복사
 ```
+temps = [28, 31, 33, 35, 27, 26, 25]
+values = temps
 
+print("temps:",temps)
+print("values:",values)
+values.append("A")
+print("values:",values)
+print("temps:",temps)
+```
+- 리스트 복사_깊은 복사
+```
+temps = [28, 31, 33, 35, 27, 26, 25]
+values = list(temps)
+
+print("temps:",temps)
+print("values:",values)
+values.append("A")
+print("values:",values)
+print("temps:",temps)
+```
+---
+```
+a="Hello"
+b=list(a)
+
+#첫번째 값
+#print(a[0])
+print(b)
+
+#or
+
+a="Hello"
+b=list(a)
+
+c=[]
+
+for i in a:
+    c.append(i)
+
+print(c)
+```
+---
+- 슬라이싱
+```
+a="Hello"
+print(a[::])
+#for i in range(시작값, 끝값, 단계)
+
+#a[시작값:끝값:단계]
+
+# ell
+print(a[1:4:1]) #단계 생략 가능(기본값 1)
+
+#거꾸로 출력
+print(a[::-1])
+
+license_plate="24가 2210"
+print(license_plate[-4::]) #뒤 4자리만 출력(공백도 포함)
+
+string="홀짝홀짝홀짝"
+print(string[::2])  #홀만 출력
+print(string[1::2]) #짝만 출력
+
+#문자열 부분 수정 안됨
 ```
