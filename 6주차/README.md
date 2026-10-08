@@ -15,7 +15,7 @@
 for i in range(65,91):
     print(chr(i), end=" ")
 ```
---
+---
 -반복제어문3 - 자가진단 5-1
 ```
 a,b=input().split()
