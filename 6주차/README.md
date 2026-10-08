@@ -27,7 +27,17 @@ for i in range(ord(a), ord(b)+1):
 ```
 - 반복제어문3 - 자가진단 5-1 예제#2
 ```
+a,b=input().split()
+#숫자->문자 chr()
+#문자->숫자 ord()
 
+if ord(a)<ord(b):
+    for i in range(ord(a), ord(b)+1):
+        print(chr(i), end=" ")
+
+else:
+    for i in range(ord(a), ord(b)-1,-1):
+        print(chr(i), end=" ")
 ```
 ---
 - 
