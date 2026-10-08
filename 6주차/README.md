@@ -191,3 +191,35 @@ print(a)
 a=[i+2 for i in range(1,101)if i% 2==0] 
 print(a)
 ```
+```
+#리스트 함축 
+numbers=[]
+
+for x in range(100):
+    if x%2 == 0 and x %3 == 0:
+        numbers.append(x)
+
+print(numbers)
+
+#함축식
+numbers=[x for x in range(1, 100) if x%2 == 0 and x%3 == 0]
+```
+```
+#5주차_52
+
+a=[1,2,3,4]
+for i in range(len(a))
+
+a=[1,2,3,4]
+print(sum(a[0:2]))
+```
+---
+### 튜플
+```
+a=[1,2,3,4] #리스트
+b=(1,2,3,4) #튜플 read-only
+            #리스트와 다르게 튜플은 변경 불가능
+
+a=1,2,3,4
+print(type(a)) #class 'tuple'
+```
