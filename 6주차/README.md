@@ -176,3 +176,18 @@ a=10
 del a
 print(a)
 ```
+---
+### 리스트 함축
+```
+#99까지 출력
+a=[i for i in range(100)]
+print(a)
+
+
+#1부터 100사이 짝수 출력
+a=[i for i in range(1,101)if i% 2==0] 
+print(a)
+
+a=[i+2 for i in range(1,101)if i% 2==0] 
+print(a)
+```
