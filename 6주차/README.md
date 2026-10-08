@@ -16,7 +16,9 @@ for i in range(65,91):
     print(chr(i), end=" ")
 ```
 ---
-- 반복제어문3 - 자가진단 5-1 예제#1
+반복제어문3 - 자가진단 5-1
+-------------
+- 예제#1
 ```
 a,b=input().split()
 #숫자->문자 chr()
@@ -25,7 +27,7 @@ a,b=input().split()
 for i in range(ord(a), ord(b)+1):
     print(chr(i), end=" ")
 ```
-- 반복제어문3 - 자가진단 5-1 예제#2
+- 예제#2
 ```
 a,b=input().split()
 #숫자->문자 chr()
@@ -40,7 +42,8 @@ else:
         print(chr(i), end=" ")
 ```
 ---
-- 리스트 비교
+리스트 비교
+-------------
 ```
 >>>10 == 10
 True
@@ -63,7 +66,9 @@ True    #첫 번째 값이 같으면 두 번째 값 비교(3. 2 비교)
 False
 ```
 ---
-- 리스트 복사_얕은 복사
+리스트 복사
+-------------
+- 얕은 복사
 ```
 temps = [28, 31, 33, 35, 27, 26, 25]
 values = temps
@@ -74,7 +79,7 @@ values.append("A")
 print("values:",values)
 print("temps:",temps)
 ```
-- 리스트 복사_깊은 복사
+- 깊은 복사
 ```
 temps = [28, 31, 33, 35, 27, 26, 25]
 values = list(temps)
@@ -85,7 +90,7 @@ values.append("A")
 print("values:",values)
 print("temps:",temps)
 ```
-- 복사하기 실습
+- 실습
 ```
 a="Hello"
 b=list(a)
@@ -107,7 +112,8 @@ for i in a:
 print(c)
 ```
 ---
-- 슬라이싱
+슬라이싱
+-------------
 ```
 a="Hello"
 print(a[::])
