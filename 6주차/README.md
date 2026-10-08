@@ -85,7 +85,7 @@ values.append("A")
 print("values:",values)
 print("temps:",temps)
 ```
----
+- 복사하기 실습
 ```
 a="Hello"
 b=list(a)
