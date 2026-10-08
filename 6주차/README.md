@@ -147,6 +147,7 @@ print(string[1::2]) #짝만 출력
 >>> lst
 []
 
+#1
 a=[10,30,20,60,50,40]
 a.sort()
 del a[-1]    #del
@@ -154,9 +155,18 @@ a.remove(50) #remove("값") /요소 값을 알고 있을 때 유리
 a.pop()      #pop(index)
 print(a)
 
+#2
 a=[10,30,20,60,50,40]
 a.sort(reverse=True)
 del a[-1]    #del
+a.remove(50) #remove("값")
+a.pop()      #pop(index)
+print(a)
+
+#3
+a=[10,30,20,60,50,40]
+a.sort(reverse=True) #정렬
+del a[:3]    #del
 a.remove(50) #remove("값")
 a.pop()      #pop(index)
 print(a)
